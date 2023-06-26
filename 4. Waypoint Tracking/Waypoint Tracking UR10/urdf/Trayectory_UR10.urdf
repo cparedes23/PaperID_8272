@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Trayectory_UR10">
+  <link
+    name="Trayectory_UR10">
+    <inertial>
+      <origin
+        xyz="0.000159353466286277 6.99102964932959E-06 -0.0195645591921084"
+        rpy="0 0 0" />
+      <mass
+        value="0.720450806449451" />
+      <inertia
+        ixx="0.00116876231249048"
+        ixy="-4.89685906370864E-08"
+        ixz="-2.03535788248803E-07"
+        iyy="0.00117868764546421"
+        iyz="8.0330404955096E-08"
+        izz="0.00217154959695465" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_UR10/meshes/Trayectory_UR10.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.341176470588235 0.356862745098039 0.364705882352941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_UR10/meshes/Trayectory_UR10.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Eslabon1_UR10">
+    <inertial>
+      <origin
+        xyz="-0.0113380388289599 -0.00252220626358498 0.0784763086143137"
+        rpy="0 0 0" />
+      <mass
+        value="3.13502087225483" />
+      <inertia
+        ixx="0.0109675728703293"
+        ixy="-0.000164506512879259"
+        ixz="0.000854960914170804"
+        iyy="0.0116700570398034"
+        iyz="0.000189512617483563"
+        izz="0.0103221378023363" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_UR10/meshes/Eslabon1_UR10.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_UR10/meshes/Eslabon1_UR10.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor1_UR10"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="Trayectory_UR10" />
+    <child
+      link="Eslabon1_UR10" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Eslabon2_UR10">
+    <inertial>
+      <origin
+        xyz="-0.147600026296208 -0.235925247493093 0.120765885303565"
+        rpy="0 0 0" />
+      <mass
+        value="8.88743518832553" />
+      <inertia
+        ixx="0.460149260901415"
+        ixy="0.0270589069334975"
+        ixz="-0.00926604393899269"
+        iyy="0.0723372237394219"
+        iyz="0.139785305523519"
+        izz="0.413816868432994" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_UR10/meshes/Eslabon2_UR10.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_UR10/meshes/Eslabon2_UR10.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor2_UR10"
+    type="revolute">
+    <origin
+      xyz="0 0 0.09"
+      rpy="1.5708 0 0" />
+    <parent
+      link="Eslabon1_UR10" />
+    <child
+      link="Eslabon2_UR10" />
+    <axis
+      xyz="0.97605 0 -0.21754" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Eslabon3_UR10">
+    <inertial>
+      <origin
+        xyz="0.00160310302478604 0.0965503356711631 0.243581121460188"
+        rpy="0 0 0" />
+      <mass
+        value="4.74674118877019" />
+      <inertia
+        ixx="0.195115620673842"
+        ixy="-0.0149105724063042"
+        ixz="-0.0358233531890147"
+        iyy="0.175597835635568"
+        iyz="-0.06706078539499"
+        izz="0.0419615963548551" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_UR10/meshes/Eslabon3_UR10.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_UR10/meshes/Eslabon3_UR10.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor3_UR10"
+    type="revolute">
+    <origin
+      xyz="0.04556 -0.57602 0.2044"
+      rpy="0 0 0" />
+    <parent
+      link="Eslabon2_UR10" />
+    <child
+      link="Eslabon3_UR10" />
+    <axis
+      xyz="-0.97605 0 0.21754" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Eslabon4_UR10">
+    <inertial>
+      <origin
+        xyz="-0.156124466931984 -0.00707579486215831 0.0380382370719119"
+        rpy="0 0 0" />
+      <mass
+        value="0.743069959717379" />
+      <inertia
+        ixx="0.00108377496417189"
+        ixy="-1.24768952620168E-08"
+        ixz="5.19679271958241E-05"
+        iyy="0.00113734238798932"
+        iyz="5.75006129700055E-08"
+        izz="0.000869188392245203" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_UR10/meshes/Eslabon4_UR10.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_UR10/meshes/Eslabon4_UR10.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor4_UR10"
+    type="revolute">
+    <origin
+      xyz="0.12093 0.221860000000002 0.522489999999999"
+      rpy="0 0 0" />
+    <parent
+      link="Eslabon3_UR10" />
+    <child
+      link="Eslabon4_UR10" />
+    <axis
+      xyz="-0.976050770038202 0 0.217542856255573" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Eslabon5_UR10">
+    <inertial>
+      <origin
+        xyz="0.023516278647076 0.105505915011275 0.00972544773228068"
+        rpy="0 0 0" />
+      <mass
+        value="0.743084158301796" />
+      <inertia
+        ixx="0.00113330839449443"
+        ixy="-1.81987499262508E-05"
+        ixz="-2.00717406476807E-05"
+        iyy="0.00105557805734508"
+        iyz="-9.04262781194478E-05"
+        izz="0.000901451686252218" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_UR10/meshes/Eslabon5_UR10.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_UR10/meshes/Eslabon5_UR10.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor5_UR10"
+    type="revolute">
+    <origin
+      xyz="-0.16566 -0.00708 0.03019"
+      rpy="1.5708 0 0" />
+    <parent
+      link="Eslabon4_UR10" />
+    <child
+      link="Eslabon5_UR10" />
+    <axis
+      xyz="0.21754 0.97605 -0.00010367" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Eslabon6_UR10">
+    <inertial>
+      <origin
+        xyz="6.2231E-06 -0.096488 -0.004768"
+        rpy="0 0 0" />
+      <mass
+        value="0.40775" />
+      <inertia
+        ixx="0.00066225"
+        ixy="1.3037E-07"
+        ixz="1.6018E-06"
+        iyy="0.0011564"
+        iyz="2.372E-05"
+        izz="0.00087581" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_UR10/meshes/Eslabon6_UR10.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_UR10/meshes/Eslabon6_UR10.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor6_UR10"
+    type="revolute">
+    <origin
+      xyz="0.02517 0.11293 -1E-05"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="Eslabon5_UR10" />
+    <child
+      link="Eslabon6_UR10" />
+    <axis
+      xyz="2.6139E-05 -1 0.00010039" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>

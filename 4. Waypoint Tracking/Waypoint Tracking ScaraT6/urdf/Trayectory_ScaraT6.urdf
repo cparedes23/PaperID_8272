@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Trayectory_ScaraT6">
+  <link
+    name="Base_ScaraT6">
+    <inertial>
+      <origin
+        xyz="-0.0507938994716754 0.000110955965225465 -0.00518749836605034"
+        rpy="0 0 0" />
+      <mass
+        value="11.6298653739476" />
+      <inertia
+        ixx="0.229330937369406"
+        ixy="0.000104748645314744"
+        ixz="-0.0105952074442447"
+        iyy="0.260653500937308"
+        iyz="-8.58695071842025E-05"
+        izz="0.0633364409209329" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_ScaraT6/meshes/Base_ScaraT6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_ScaraT6/meshes/Base_ScaraT6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Eslabon1_ScaraT6">
+    <inertial>
+      <origin
+        xyz="0.13426 -0.060948 0.0011508"
+        rpy="0 0 0" />
+      <mass
+        value="1.6797" />
+      <inertia
+        ixx="0.0047713"
+        ixy="0.0061069"
+        ixz="0.00042485"
+        iyy="0.015452"
+        iyz="-0.00019287"
+        izz="0.019536" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_ScaraT6/meshes/Eslabon1_ScaraT6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_ScaraT6/meshes/Eslabon1_ScaraT6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor1_ScaraT6"
+    type="revolute">
+    <origin
+      xyz="0 0 0"
+      rpy="0 0 0" />
+    <parent
+      link="Base_ScaraT6" />
+    <child
+      link="Eslabon1_ScaraT6" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Eslabon2_ScaraT6">
+    <inertial>
+      <origin
+        xyz="0.0888011994152746 0.0801997416248819 0.126638612232093"
+        rpy="0 0 0" />
+      <mass
+        value="7.53552735524633" />
+      <inertia
+        ixx="0.0625153654144892"
+        ixy="-0.0340715037347829"
+        ixz="0.00434337872484673"
+        iyy="0.0694438687570472"
+        iyz="0.00392840228368042"
+        izz="0.0839824657522899" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_ScaraT6/meshes/Eslabon2_ScaraT6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_ScaraT6/meshes/Eslabon2_ScaraT6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor2_ScaraT6"
+    type="revolute">
+    <origin
+      xyz="0.29593 -0.13434 0"
+      rpy="0 0 0" />
+    <parent
+      link="Eslabon1_ScaraT6" />
+    <child
+      link="Eslabon2_ScaraT6" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Eslabon3_ScaraT6">
+    <inertial>
+      <origin
+        xyz="0.000101985033136853 -5.85229511694818E-05 0.0496055724330256"
+        rpy="0 0 0" />
+      <mass
+        value="0.0882873317382595" />
+      <inertia
+        ixx="0.00152334387776692"
+        ixy="-3.08341923590769E-08"
+        ixz="2.33194239366253E-09"
+        iyy="0.00152326575067869"
+        iyz="-4.50363162943859E-08"
+        izz="1.03409245671275E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_ScaraT6/meshes/Eslabon3_ScaraT6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Trayectory_ScaraT6/meshes/Eslabon3_ScaraT6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Motor3_ScaraT6"
+    type="revolute">
+    <origin
+      xyz="0.20407 0.18434 0"
+      rpy="0 0 0" />
+    <parent
+      link="Eslabon2_ScaraT6" />
+    <child
+      link="Eslabon3_ScaraT6" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>
