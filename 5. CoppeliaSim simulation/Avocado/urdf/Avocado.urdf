@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="Avocado">
+  <link
+    name="Avocado">
+    <inertial>
+      <origin
+        xyz="7.27964790956574E-19 0.0464787778257458 -1.0137111831409E-07"
+        rpy="0 0 0" />
+      <mass
+        value="0.155265803845365" />
+      <inertia
+        ixx="9.15954429934306E-05"
+        ixy="1.5008697298283E-22"
+        ixz="-1.28400289663136E-26"
+        iyy="5.10362710169675E-05"
+        iyz="8.58264752535417E-10"
+        izz="9.15954429957635E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Avocado/meshes/Avocado.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0.180392156862745 0.0392156862745098 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Avocado/meshes/Avocado.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
