@@ -18,7 +18,7 @@ ii. `Universal UR10 Robot -> UR10`. UR10 robot assembly is presented.
 
   ii. `Scara T6 dynamics -> ejm`. Scara T6 robot dynamic test program
 
-  iii. `Path Tracking Simulation in Matlab Scara T6 -> ejm3`. Scara T6 robot path Tracking Simulation
+  iii. `Path Tracking Simulation in Matlab Scara T6 -> ejm3`. Scara T6 robot Path Tracking Simulation
 
 - **Universal UR10 robot**
   
@@ -26,6 +26,13 @@ ii. `Universal UR10 Robot -> UR10`. UR10 robot assembly is presented.
   
   ii. `UR10 dynamics -> ejm`. UR10 robot dynamic test program
   
-  iii. `Path Tracking Simulation in Matlab UR10 -> ejemplo3`. UR10 robot path Tracking Simulation
+  iii. `Path Tracking Simulation in Matlab UR10 -> ejemplo3`. UR10 robot Path Tracking Simulation
 
+  **4. Waypoint Tracking**
+- **Waypoint Tracking ScaraT6**
   
+`urdf -> Waypoint_Tracking_ScaraT6`. Scara T6 waypoint tracking calculated screenshot
+
+- **Waypoint Tracking UR10**
+  
+`urdf -> Waypoint_Tracking_UR10`. UR10 waypoint tracking calculated screenshot
