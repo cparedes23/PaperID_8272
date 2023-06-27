@@ -14,6 +14,6 @@ ii. `Universal UR10 Robot -> UR10`. UR10 robot assembly is presented.
 **3. Matlab Simulation:** 
 - **Epson SCARA T6 robot**
   
-i. `Scara T6 kinematics -> ejm2`. Scara T6 robot animation software test program
+  i. `Scara T6 kinematics -> ejm2`. Scara T6 robot animation software test program
 
-ii. `Scara T6 dynamics -> ejm`. Scara T6 robot dynamic test program
+  ii. `Scara T6 dynamics -> ejm`. Scara T6 robot dynamic test program
