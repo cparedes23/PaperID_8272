@@ -31,8 +31,8 @@ ii. `Universal UR10 Robot -> UR10`. UR10 robot assembly is presented.
   **4. Waypoint Tracking**
 - **Waypoint Tracking ScaraT6**
   
-`urdf -> Waypoint_Tracking_ScaraT6`. Scara T6 waypoint tracking calculated screenshot
+  `urdf -> Waypoint_Tracking_ScaraT6`. Scara T6 waypoint tracking calculated screenshot
 
 - **Waypoint Tracking UR10**
   
-`urdf -> Waypoint_Tracking_UR10`. UR10 waypoint tracking calculated screenshot
+  `urdf -> Waypoint_Tracking_UR10`. UR10 waypoint tracking calculated screenshot
