@@ -6,7 +6,5 @@ Additional resources and supporting documentation for paper **ID 8272** titled "
 **1. Morphological Selection and Requirements:** The manufacturer's datasheet of the Scara T6 and UR10 robots is provided, whose characteristics have been used as a reference for the CAD drawings and the corresponding programming files.
 
 **2. Solidworks Mechanical Modeling:** Precise information on the lengths between each joint was extracted from the CAD files made in SolidWorks to perform the kinematics calculation. In addition, the physical properties of the robots were used in the dynamics calculation. For trajectory tracking, the SolidWorks Motion configuration was used.
-
 i. `Epson SCARA T6 -> Robot ScaraT6`. Scara T6 robot assembly is presented.
-
 ii. `Universal UR10 Robot -> UR10`. UR10 robot assembly is presented.
