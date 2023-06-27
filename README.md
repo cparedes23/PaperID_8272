@@ -28,7 +28,7 @@ ii. `Universal UR10 Robot -> UR10`. UR10 robot assembly is presented.
   
   iii. `Path Tracking Simulation in Matlab UR10 -> ejemplo3`. UR10 robot Path Tracking Simulation
 
-  **4. Waypoint Tracking**
+**4. Waypoint Tracking**
 - **Waypoint Tracking ScaraT6**
   
   `urdf -> Waypoint_Tracking_ScaraT6`. Scara T6 waypoint tracking calculated screenshot
