@@ -26,6 +26,6 @@ ii. `Universal UR10 Robot -> UR10`. UR10 robot assembly is presented.
   
   ii. `UR10 dynamics -> ejm`. UR10 robot dynamic test program
   
-  iii. `Path Tracking Simulation in Matlab UR10 -> ejm3`. UR10 robot path Tracking Simulation
+  iii. `Path Tracking Simulation in Matlab UR10 -> ejemplo3`. UR10 robot path Tracking Simulation
 
   
