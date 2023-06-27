@@ -36,3 +36,12 @@ ii. `Universal UR10 Robot -> UR10`. UR10 robot assembly is presented.
 - **Waypoint Tracking UR10**
   
   `urdf -> Waypoint_Tracking_UR10`. UR10 waypoint tracking calculated screenshot
+
+**5. CoppeliaSim simulation**
+
+i. `Avocado Robotic Cell`.  Avocado pick and place and palletizing cell simulation environment
+
+ii. `Robotic cell code in Matlab -> Main`. Avocado pick and place and palletizing cell simulation program
+
+
+  
