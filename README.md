@@ -43,5 +43,12 @@ i. `Avocado Robotic Cell`.  Avocado pick and place and palletizing cell simulati
 
 ii. `Robotic cell code in Matlab -> Main`. Avocado pick and place and palletizing cell simulation program
 
+# Requirements
+- Matlab R2019a or a later version is required. All necessary additional packages have been uploaded to this repository.
+	- [Robotics System Toolbox](https://es.mathworks.com/products/robotics.html) provides a library of robotics algorithms and tools for designing, simulating, and testing robotics application
 
+- Solidworks 2022 SP0 or a later version is required. All necessary additional packages have been uploaded to this repository.
+	- [SolidWorks to URDF Exporter](http://wiki.ros.org/sw_urdf_exporter) is a SolidWorks add-in that allows for the convenient export of SW Parts and Assemblies into a URDF file.
+
+- CoppeliaSim v4.5.1 or a later version is required. All necessary files have been uploaded to this repository.
   
