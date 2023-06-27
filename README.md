@@ -17,3 +17,15 @@ ii. `Universal UR10 Robot -> UR10`. UR10 robot assembly is presented.
   i. `Scara T6 kinematics -> ejm2`. Scara T6 robot animation software test program
 
   ii. `Scara T6 dynamics -> ejm`. Scara T6 robot dynamic test program
+
+  iii. `Path Tracking Simulation in Matlab Scara T6 -> ejm3`. Scara T6 robot path Tracking Simulation
+
+- **Universal UR10 robot**
+  
+  i. `UR10 kinematics -> ejm2`. UR10 robot animation software test program
+  
+  ii. `UR10 dynamics -> ejm`. UR10 robot dynamic test program
+  
+  iii. `Path Tracking Simulation in Matlab UR10 -> ejm3`. UR10 robot path Tracking Simulation
+
+  
