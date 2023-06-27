@@ -51,6 +51,8 @@ ii. `Robotic cell code in Matlab -> Main`. Avocado pick and place and palletizin
 	- [SolidWorks to URDF Exporter](http://wiki.ros.org/sw_urdf_exporter) is a SolidWorks add-in that allows for the convenient export of SW Parts and Assemblies into a URDF file.
 
 - CoppeliaSim v4.5.1 or a later version is required. All necessary files have been uploaded to this repository.
+
+# Screenshots
   
 ![Scara T6 Path Tracking Gif](https://github.com/cparedes23/PaperID_8272/assets/134640332/ae13d81d-6951-49fe-8194-bd8a573fb29a)
 
