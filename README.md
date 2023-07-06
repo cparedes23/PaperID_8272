@@ -53,6 +53,7 @@ ii. `Robotic cell code in Matlab -> Main`. Avocado pick and place and palletizin
 - CoppeliaSim v4.5.1 or a later version is required. All necessary files have been uploaded to this repository.
 
 # Screenshots
+![Scara T6 exploded view](https://github.com/cparedes23/PaperID_8272/assets/134640332/6ea61ff7-d5e8-4ee1-8f3f-9edbfdd556e9)
   
 ![Scara T6 Path Tracking Gif](https://github.com/cparedes23/PaperID_8272/assets/134640332/ae13d81d-6951-49fe-8194-bd8a573fb29a)
 
